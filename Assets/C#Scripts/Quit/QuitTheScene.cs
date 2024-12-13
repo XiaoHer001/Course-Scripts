@@ -4,22 +4,15 @@ using UnityEngine;
 
 public class QuitTheScene : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
     void Update()
     {
-        // µ±ÎÒÃÇ°´ÏÂ¼üÅÌÉÏµÄESC¼üÊ± ÍË³ö³ÌĞò
-        // Èç¹ûÔÚ±à¼­Æ÷ÏÂ
+        // å½“æˆ‘ä»¬æŒ‰ä¸‹é”®ç›˜ä¸Šçš„ESCé”®æ—¶ é€€å‡ºç¨‹åº
+        // å¦‚æœåœ¨ç¼–è¾‘å™¨ä¸‹
         if (Input.GetKeyDown(KeyCode.Escape))
         {
 #if UNITY_EDITOR
         UnityEditor.EditorApplication.isPlaying = false;
-            // Èç¹û´ò°üÒÔºó
+            // å¦‚æœæ‰“åŒ…ä»¥å
 #else
         Application.Quit();
 #endif

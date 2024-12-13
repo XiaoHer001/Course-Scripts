@@ -8,11 +8,11 @@ public class ClickTheRedCube : MonoBehaviour
     public Image Background;
     private void OnMouseDown()
     {
-        //print("Êó±ê°´ÏÂ");
-        // µã»÷ºìÉ«Á¢·½Ìå 3Ãëºó³öÏÖUI
-        // ¿ªÆôĞ­³Ì
+        //print("é¼ æ ‡æŒ‰ä¸‹");
+        // ç‚¹å‡»çº¢è‰²ç«‹æ–¹ä½“ 3ç§’åå‡ºç°UI
+        // å¼€å¯åç¨‹
         // StartCoroutine("Appear");
-        // ´íÎóµÄ·½·¨ Ã»ÓĞÕâÃ´Ğ´µÄ
+        // é”™è¯¯çš„æ–¹æ³• æ²¡æœ‰è¿™ä¹ˆå†™çš„
         StartCoroutine(Appear());
         Invoke("Stop", 4.0f);
     }
@@ -20,61 +20,61 @@ public class ClickTheRedCube : MonoBehaviour
     {
         StopCoroutine(Appear());
         //StopAllCoroutines();
-        print("ÖÕÖ¹ÁËÕâ¸öĞ­³Ì");
+        print("ç»ˆæ­¢äº†è¿™ä¸ªåç¨‹");
     }
     IEnumerator Appear()
     {
-        // ÑÓ³Ù3Ãëºó
+        // å»¶è¿Ÿ3ç§’å
         yield return new WaitForSeconds(3.0f);
-        // ÏÔÊ¾UI
+        // æ˜¾ç¤ºUI
         Background.gameObject.SetActive(true);
-        // ²ÉÓÃËü¸øµÄ·½·¨ ÖÕÖ¹Ğ­³Ì StopCoroutine Õâ¸ö·½·¨ÊÊÓÃÓÚÔÚĞ­³ÌÖ®ÍâÖÕÖ¹Ä³Ò»¸öĞ­³Ì ÔÚĞ­³ÌÀïÃæÎŞĞ§
+        // é‡‡ç”¨å®ƒç»™çš„æ–¹æ³• ç»ˆæ­¢åç¨‹ StopCoroutine è¿™ä¸ªæ–¹æ³•é€‚ç”¨äºåœ¨åç¨‹ä¹‹å¤–ç»ˆæ­¢æŸä¸€ä¸ªåç¨‹ åœ¨åç¨‹é‡Œé¢æ— æ•ˆ
         //StopCoroutine("Appear");
-        // ÔÚĞ­³ÌÀïÃæÖÕÖ¹Ğ­³ÌµÄ·½·¨
+        // åœ¨åç¨‹é‡Œé¢ç»ˆæ­¢åç¨‹çš„æ–¹æ³•
         //yield break;
-        // ÖÕÖ¹ËùÓĞĞ­³Ì ·ÅÔÚĞ­³ÌÀïÃæºÍÍâÃæ ¶¼ÓĞĞ§¹û
+        // ç»ˆæ­¢æ‰€æœ‰åç¨‹ æ”¾åœ¨åç¨‹é‡Œé¢å’Œå¤–é¢ éƒ½æœ‰æ•ˆæœ
         //StopAllCoroutines();
         yield return new WaitForSeconds(2.0f);
-        print("Ã»ÓĞÖÕÖ¹Õâ¸öĞ­³Ì");
+        print("æ²¡æœ‰ç»ˆæ­¢è¿™ä¸ªåç¨‹");
     }
     private void OnMouseOver()
     {
-        //print("Êó±êĞüÍ£");
+        //print("é¼ æ ‡æ‚¬åœ");
     }
     private void OnMouseEnter()
     {
-        //print("Êó±ê½øÈëÅö×²Ìå");
+        //print("é¼ æ ‡è¿›å…¥ç¢°æ’ä½“");
     }
     private void OnMouseExit()
     {
-        //print("Êó±êÀë¿ªÅö×²Ìå");
+        //print("é¼ æ ‡ç¦»å¼€ç¢°æ’ä½“");
     }
     private void OnMouseUp()
     {
-        //print("Êó±ê°´ÏÂºóËÉ¿ª");
+        //print("é¼ æ ‡æŒ‰ä¸‹åæ¾å¼€");
     }
     private void OnMouseDrag()
     {
-        //print("Êó±ê³¤°´Ã¿ÈıÖ¡µ÷ÓÃÒ»´Î");
+        //print("é¼ æ ‡é•¿æŒ‰æ¯ä¸‰å¸§è°ƒç”¨ä¸€æ¬¡");
     }
 
 
 
 
 
-    // ¿ªÆôĞ­³Ì
+    // å¼€å¯åç¨‹
     //  1  StartCoroutine("Appear");
     //  2  StartCoroutine(Appear());
 
-    // ÖÕÖ¹µ¥Ò»Ğ­³Ì
-    //  ÔÚĞ­³ÌÍâÖÕÖ¹Ğ­³Ì
+    // ç»ˆæ­¢å•ä¸€åç¨‹
+    //  åœ¨åç¨‹å¤–ç»ˆæ­¢åç¨‹
     //   1  StopCoroutine("Appear");
-    //   2  StopCoroutine(Appear()); ÓĞÎÊÌâ£¬ÎŞ·¨ÖÕÖ¹
+    //   2  StopCoroutine(Appear()); æœ‰é—®é¢˜ï¼Œæ— æ³•ç»ˆæ­¢
 
-    //  ÔÚĞ­³ÌÀïÃæÖÕÖ¹Ğ­³Ì
+    //  åœ¨åç¨‹é‡Œé¢ç»ˆæ­¢åç¨‹
     //   yield break;
-    //  ÔÚĞ­³ÌÀïÍâ¾ù¿ÉÒÔ
-    //   ÖÕÖ¹ËùÓĞĞ­³Ì
+    //  åœ¨åç¨‹é‡Œå¤–å‡å¯ä»¥
+    //   ç»ˆæ­¢æ‰€æœ‰åç¨‹
     //   StopAllCoroutines();
 
 

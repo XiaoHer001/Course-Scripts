@@ -4,23 +4,23 @@ using UnityEngine;
 
 public class PlayTheCubeAni : MonoBehaviour
 {
-    // »ñÈ¡¶¯»­¿ØÖÆÆ÷×é¼ş
+    // è·å–åŠ¨ç”»æ§åˆ¶å™¨ç»„ä»¶
     private Animator Cube_Ani;
     void Start()
     {
-        // »ñÈ¡×ÔÉí(Cube)ÉíÉÏµÄAnimator×é¼ş
+        // è·å–è‡ªèº«(Cube)èº«ä¸Šçš„Animatorç»„ä»¶
         Cube_Ani = GetComponent<Animator>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        // Èç¹û°´ÏÂE¼ü ÇĞ»»ÎªCubeTwo¶¯»­
+        // å¦‚æœæŒ‰ä¸‹Eé”® åˆ‡æ¢ä¸ºCubeTwoåŠ¨ç”»
         if (Input.GetKeyDown(KeyCode.E))
         {
             Cube_Ani.SetBool("IsTwo", true);
         }
-        // Èç¹û°´ÏÂQ¼ü ÇĞ»»»ØCube¶¯»­
+        // å¦‚æœæŒ‰ä¸‹Qé”® åˆ‡æ¢å›CubeåŠ¨ç”»
         if (Input.GetKeyDown(KeyCode.Q))
         {
             Cube_Ani.SetBool("IsTwo", false);

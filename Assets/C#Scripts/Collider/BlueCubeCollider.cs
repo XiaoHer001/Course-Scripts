@@ -4,30 +4,30 @@ using UnityEngine;
 
 public class BlueCubeCollider : MonoBehaviour
 {
-    // Åö×²ÎïÌåË«·½¶¼²»ÊÇ/¶¼Ã»¹´Ñ¡ÊÇ´¥·¢Æ÷ ²»ÈÃËü´©¹ıÈ¥
+    // ç¢°æ’ç‰©ä½“åŒæ–¹éƒ½ä¸æ˜¯/éƒ½æ²¡å‹¾é€‰æ˜¯è§¦å‘å™¨ ä¸è®©å®ƒç©¿è¿‡å»
     private void OnCollisionEnter(Collision collision)
     {
-        //print("½Ó´¥Åö×²Ìå/¸ÕÌå");
+        //print("æ¥è§¦ç¢°æ’ä½“/åˆšä½“");
     }
     private void OnCollisionStay(Collision collision)
     {
-        //print("´¦ÔÚÅö×²Ìå/¸ÕÌåÖ®ÖĞ");
+        //print("å¤„åœ¨ç¢°æ’ä½“/åˆšä½“ä¹‹ä¸­");
     }
     private void OnCollisionExit(Collision collision)
     {
-        //print("Àë¿ªÅö×²Ìå/¸ÕÌå");
+        //print("ç¦»å¼€ç¢°æ’ä½“/åˆšä½“");
     }
-    // Åö×²Ë«·½±ØĞëÓĞÒ»¸öÊÇ/¹´Ñ¡ÁËÊÇ´¥·¢Æ÷ ÈÃËü´©¹ıÈ¥
+    // ç¢°æ’åŒæ–¹å¿…é¡»æœ‰ä¸€ä¸ªæ˜¯/å‹¾é€‰äº†æ˜¯è§¦å‘å™¨ è®©å®ƒç©¿è¿‡å»
     private void OnTriggerEnter(Collider other)
     {
-        print("½Ó´¥Åö×²Ìå/´¥·¢Æ÷");
+        print("æ¥è§¦ç¢°æ’ä½“/è§¦å‘å™¨");
     }
     private void OnTriggerStay(Collider other)
     {
-        print("´¦ÔÚÅö×²Ìå/´¥·¢Æ÷Ö®ÖĞ");
+        print("å¤„åœ¨ç¢°æ’ä½“/è§¦å‘å™¨ä¹‹ä¸­");
     }
     private void OnTriggerExit(Collider other)
     {
-        print("Àë¿ªÅö×²Ìå/´¥·¢Æ÷");
+        print("ç¦»å¼€ç¢°æ’ä½“/è§¦å‘å™¨");
     }
 }

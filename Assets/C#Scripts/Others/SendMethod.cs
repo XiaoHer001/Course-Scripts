@@ -5,21 +5,14 @@ using UnityEngine.SceneManagement;
 
 public class SendMethod : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
     void Update()
     {
-        // 当我们按下Q键时调用在Test空物体上的脚本Test中的
+        // 褰撴垜浠寜涓婹閿椂璋冪敤鍦═est绌虹墿浣撲笂鐨勮剼鏈琓est涓殑
         if (Input.GetKeyDown(KeyCode.Q))
         {
             SceneManager.LoadScene(1);
         }
-        // 当我们按下E键时跳转First Course场景
+        // 褰撴垜浠寜涓婨閿椂璺宠浆First Course鍦烘櫙
         if (Input.GetKeyDown(KeyCode.E))
         {
             SceneManager.LoadScene(0);
