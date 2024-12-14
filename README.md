@@ -20,7 +20,7 @@
 
 ![Unity Hub](https://github.com/user-attachments/assets/7268f482-9e58-48a5-b8c6-5449abc79b7b)
 
-> **注意**: 打开项目后可能看到的是如下图所示的未保存场景。不用管它，直接点击左下角的 Assets 文件夹中的 C#Scripts 和 TXT 。
+> **注意**: 打开项目后可能看到的是如下图示例样的未保存场景。不用管它，直接点击左下角的 Assets 文件夹中的 C#Scripts 和 TXT 等子文件夹。
 
 ![Unity](https://github.com/user-attachments/assets/2d9b5c44-c9f7-4c9d-a131-8032a1c516f3)
 
