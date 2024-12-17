@@ -35,5 +35,5 @@
 
 ## 联系方式
 若有任何问题或需要帮助，请通过以下方式联系作者或项目维护者：
-- [项目主页](https://github.com/XiaoHer001/Course-Scripts)
+- [个人主页](https://github.com/XiaoHer001)
 - [Bilibili个人空间](https://space.bilibili.com/454661397?spm_id_from=333.1007.0.0)
