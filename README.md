@@ -5,13 +5,15 @@
 ## 使用方法
 
 ### 1. 下载项目文件
-> **注意** GitHub：点击蓝色的 **Code** 按钮，点击 **Download ZIP** 下载项目压缩包文件。
+> **注意**: GitHub中点击蓝色的 **Code** 按钮，点击 **Download ZIP** 下载项目压缩包文件。
 
 ![Download ZIP](https://github.com/user-attachments/assets/9357a00b-db89-4038-970d-f8a420996cab)
 
-> **注意** Gitee：点击橘黄色的 **克隆/下载** 按钮，在弹窗中点击 **下载ZIP** 下载项目压缩包文件。
+> **注意**: Gitee中点击橘黄色的 **克隆/下载** 按钮。
 
 ![Download ZIP](https://github.com/user-attachments/assets/81488b3e-f22f-4cdc-9f04-34d6a2d0ec5f)
+
+> **注意**: 在弹窗中点击 **下载ZIP** 下载项目压缩包文件。
 
 ![Download ZIP](https://github.com/user-attachments/assets/bf567c32-b42a-4119-be30-20d1a095b064)
 
@@ -41,5 +43,6 @@
 
 ## 联系方式
 若有任何问题或需要帮助，请通过以下方式联系作者或项目维护者：
-- [个人主页](https://github.com/XiaoHer001)
+- [GitHub主页](https://github.com/XiaoHer001)
+- [Gitee主页](https://gitee.com/XiaoHer001)
 - [Bilibili个人空间](https://space.bilibili.com/454661397?spm_id_from=333.1007.0.0)
