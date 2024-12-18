@@ -28,7 +28,7 @@
 
 ![Unity Hub](https://github.com/user-attachments/assets/0daaa5d2-cab6-4a9c-bb96-b9927f88fd4a)
 
-> **注意**: 打开项目后可能看到的是如下图示例样的未保存场景。不用管它，直接点击左下角的 Assets 文件夹中的 Scenes、C#Scripts 和 TXT 等子文件夹。
+> **注意**: 打开项目后可能看到的是如下图示例样的未保存场景。不用管它，直接点击左下角的 Assets 文件夹中的 Scenes 、C#Scripts 和 TXT 等子文件夹。
 
 ![Unity](https://github.com/user-attachments/assets/a172a73c-8bc1-4a11-bb04-a22d3958d8b8)
 
