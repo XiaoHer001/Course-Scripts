@@ -4,7 +4,6 @@
 // See the LICENSE file for full details.
 
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class DelayExample : MonoBehaviour

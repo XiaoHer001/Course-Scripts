@@ -1,6 +1,7 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+// Copyright (c) 2024 XiaoHer001
+//
+// This software is licensed under the MIT License. 
+// See the LICENSE file for full details.
 
 // ================================================
 // 实现功能: 线程安全的单例模式类。
